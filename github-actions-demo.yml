@@ -1,3 +1,15 @@
+#若要开始使用 Dependabot 版本更新，需要指定哪个
+#要更新的包生态系统以及包清单所在的位置。
+#请参阅所有配置选项的文档：
+#https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+版本:2
+更新:
+  - 软件包生态系统:"" #有关可能的值，请参阅文档
+    目录:"/" #包清单的位置
+    附表:
+      间隔:"周刊"
+      
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
